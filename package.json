@@ -1,0 +1,26 @@
+{
+  "name": "typescript-dicey-business",
+  "version": "1.0.0",
+  "description": "Covalence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osborne7/typescript-dicey-business.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osborne7/typescript-dicey-business/issues"
+  },
+  "homepage": "https://github.com/osborne7/typescript-dicey-business#readme",
+  "dependencies": {
+    "@types/jquery": "^3.5.0",
+    "jquery": "^3.5.1",
+    "typescript": "^3.9.5"
+  }
+}

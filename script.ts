@@ -1,7 +1,8 @@
-let button = document.getElementById('generate-die');
+// let button = document.getElementById('generate-die');
 let container = document.getElementById('container');
 let newVal;
-let rollButton = document.getElementById('roll-die');
+// let rollButton = document.getElementById('roll-die');
+import $ from 'jquery';
 
 class Die {
     constructor() {
@@ -32,10 +33,10 @@ class allDie extends Die {
     }
 }
 
-button.addEventListener('click', () => {
+$("#generate-die").click(() => {
     new Die();
 })
 
-rollButton.addEventListener('click', () => {
+$("#roll-die").click(() => {
     new allDie();
 })
