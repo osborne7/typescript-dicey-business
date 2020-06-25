@@ -1,6 +1,9 @@
 # dicey-business-2
 Covalence
 
+Convert the following lab to use Typescript:
+
+Original Lab:
 This lab will combine principles of HTML, CSS, JavaScript, Accessing/Creating/Modifying HTML elements, and Object Oriented Programming.
 
 ## General Requirements
